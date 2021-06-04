@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func keyPressed(_ sender: UIButton) {
-        sender.alpha = 0.5
+        sender.ossayed/Magic-8-Ball-iOS13alpha = 0.5
         usleep(200000)
         playSound(sound: sender.currentTitle!)
         sender.alpha = 1
